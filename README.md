@@ -25,10 +25,10 @@ Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazman�
 | Argümanlar | Açıklama |
 | :---        | --- |
 | number_of_philosophers: | Filozofların sayısı ve ayrıca çatalların sayısı. |
-| time_to_die (milisaniye cinsinden): |Bir filozof, son öğününden itibaren veya simülasyonun başlangıcından beri time_to_die milisaniyesi kadar yemek yemeye başlamadıysa ölür. |
+| time_to_die (milisaniye cinsinden): | Filozofun yemek yemeden yaşayabileceği süre. |
 | time_to_eat (milisaniye cinsinden): | Bir filozofun yemek yemesi için geçen süre. Bu süre zarfında iki çatal tutmaları gerekecek. |
-|time_to_sleep (milisaniye cinsinden): | Bir filozofun uyuyarak geçireceği zaman. |
-|number_of_times_each_philosopher_must_eat (isteğe bağlı argüman): | Tüm filozoflar en az number_of_times_each_philosopher_must_eat kere yemek yemişse simülasyon durur. Belirtilmezse, bir filozof öldüğünde simülasyon durur. |
+|time_to_sleep (milisaniye cinsinden): | Bir filozofun uyuyarak geçireceği süre. |
+|number_of_times_each_philosopher_must_eat (isteğe bağlı argüman): | Filozofların yemek yeme hedefi. |
 
 ## Programınızın logları hakkında:
 
