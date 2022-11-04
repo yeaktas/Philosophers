@@ -18,8 +18,7 @@ Bu görevi başarmak istiyorsanız bilmeniz gereken şeyler şunlardır:
 
 ## Argümanlar
 
-Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazmanız gerekiyor.
-(bonus kısmını yapmaya karar verirseniz). Her ikisi de aşağıdaki kurallara uymak zorundadır:
+Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazmanız gerekiyor. Bonus kısmını yapmaya karar verirseniz, her ikisi de aşağıdaki kurallara uymak zorundadır:
 
 • Program(lar)ınız aşağıdaki argümanları almalıdır:
 
@@ -44,12 +43,10 @@ Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazman�
 	◦ timestamp_in_ms X düşünüyor
 	◦ timestamp_in_ms X öldü
 
-	*timestamp_in_ms öğesini milisaniye cinsinden geçerli zaman damgasıyla ve X öğesini filozof numarasıyla değiştirin.*
-
-• Görüntülenen bir durum mesajı başka bir mesajla karıştırılmamalıdır.
-
-• Bir filozofun öldüğünü bildiren bir mesaj, filozofun gerçek ölümünden en fazla 10 ms sonra görüntülenmelidir.-
-
+###
+	timestamp_in_ms öğesini milisaniye cinsinden geçerli zaman damgasıyla ve X öğesini filozof numarasıyla değiştirin.
+	
+###
 	**Programınız herhangi bir veri yarışına(data races) sahip olmamalıdır.**
 
 ## Zorunlu kısım
