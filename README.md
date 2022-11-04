@@ -39,9 +39,9 @@ Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazman�
 	◦ timestamp_in_ms X uyuyor
 	◦ timestamp_in_ms X düşünüyor
 	◦ timestamp_in_ms X öldü
-
 ###
-	timestamp_in_ms öğesini milisaniye cinsinden geçerli zaman damgasıyla ve X öğesini filozof numarasıyla değiştirin.
+	timestamp_in_ms: milisaniye cinsinden geçen süre 
+	X: Filozof numarası.
 
 ## Zorunlu kısım
 
