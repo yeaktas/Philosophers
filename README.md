@@ -4,29 +4,18 @@
 
 Bu görevi başarmak istiyorsanız bilmeniz gereken şeyler şunlardır:
 
-• Bir veya daha fazla filozof yuvarlak bir masada oturuyor.
-Masanın ortasında büyük bir kase spagetti var.
+| Syntax      | 
+| :---        |
+| Bir veya daha fazla filozof yuvarlak bir masada oturuyor. Masanın ortasında büyük bir kase spagetti var. |
+| Filozoflar alternatif olarak yer, düşünür veya uyur. Yemek yerken ne düşünürler ne de uyurlar; düşünürken yemek yemiyor ve uyumuyorlar; ve tabii ki uyurken yemek yemiyor ve düşünmüyorlar. |
+| Masada filozoflar kadar çatal vardır. |
+| Spagettiyi tek çatalla servis etmek ve yemek çok zahmetli olduğundan, filozof yemek için sağdaki ve soldaki çatalları her iki eline birer tane alır. |
+| Bir filozof yemeğini bitirdiğinde çatallarını tekrar masaya koyar ve uyumaya başlar. Uyandıklarında tekrar düşünmeye başlarlar. Filozof açlıktan öldüğünde simülasyon durur. |
+| Her filozofun yemek yemesi gerekir ve asla aç kalmamalıdır. | 
+| Filozoflar birbirleriyle konuşmazlar. | 
+| Filozoflar başka bir filozofun ölmek üzere olup olmadığını bilmiyorlar. |
+| Filozofların ölmekten kaçınması gerektiğini söylemeye gerek yok! | 
 
-• Filozoflar alternatif olarak yer, düşünür veya uyur.
-Yemek yerken ne düşünürler ne de uyurlar;
-düşünürken yemek yemiyor ve uyumuyorlar;
-ve tabii ki uyurken yemek yemiyor ve düşünmüyorlar.
-
-• Masada filozoflar kadar çatal vardır.
-
-• Spagettiyi tek çatalla servis etmek ve yemek çok zahmetli olduğundan,
-filozof yemek için sağdaki ve soldaki çatalları her iki eline birer tane alır.
-
-• Bir filozof yemeğini bitirdiğinde çatallarını tekrar masaya koyar ve
-uyumaya başlar. Uyandıklarında tekrar düşünmeye başlarlar. Filozof açlıktan öldüğünde simülasyon durur.
-
-• Her filozofun yemek yemesi gerekir ve asla aç kalmamalıdır.
-
-• Filozoflar birbirleriyle konuşmazlar.
-
-• Filozoflar başka bir filozofun ölmek üzere olup olmadığını bilmiyorlar.
-
-• Filozofların ölmekten kaçınması gerektiğini söylemeye gerek yok!
 
 ## Genel kurallar
 
