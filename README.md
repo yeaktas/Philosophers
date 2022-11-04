@@ -4,25 +4,22 @@
 
 Bu görevi başarmak istiyorsanız bilmeniz gereken şeyler şunlardır:
 
-| Syntax      | 
+| Talimatlar | 
 | :---        |
-| Bir veya daha fazla filozof yuvarlak bir masada oturuyor. Masanın ortasında büyük bir kase spagetti var. |
-| Filozoflar alternatif olarak yer, düşünür veya uyur. Yemek yerken ne düşünürler ne de uyurlar; düşünürken yemek yemiyor ve uyumuyorlar; ve tabii ki uyurken yemek yemiyor ve düşünmüyorlar. |
-| Masada filozoflar kadar çatal vardır. |
-| Spagettiyi tek çatalla servis etmek ve yemek çok zahmetli olduğundan, filozof yemek için sağdaki ve soldaki çatalları her iki eline birer tane alır. |
-| Bir filozof yemeğini bitirdiğinde çatallarını tekrar masaya koyar ve uyumaya başlar. Uyandıklarında tekrar düşünmeye başlarlar. Filozof açlıktan öldüğünde simülasyon durur. |
-| Her filozofun yemek yemesi gerekir ve asla aç kalmamalıdır. | 
-| Filozoflar birbirleriyle konuşmazlar. | 
-| Filozoflar başka bir filozofun ölmek üzere olup olmadığını bilmiyorlar. |
-| Filozofların ölmekten kaçınması gerektiğini söylemeye gerek yok! | 
+| • Bir veya daha fazla filozof yuvarlak bir masada oturuyor. Masanın ortasında büyük bir kase spagetti var. |
+| • Filozoflar alternatif olarak yer, düşünür veya uyur. Yemek yerken ne düşünürler ne de uyurlar; düşünürken yemek yemiyor ve uyumuyorlar; ve tabii ki uyurken yemek yemiyor ve düşünmüyorlar. |
+| • Masada filozoflar kadar çatal vardır. |
+| • Spagettiyi tek çatalla servis etmek ve yemek çok zahmetli olduğundan, filozof yemek için sağdaki ve soldaki çatalları her iki eline birer tane alır. |
+| • Bir filozof yemeğini bitirdiğinde çatallarını tekrar masaya koyar ve uyumaya başlar. Uyandıklarında tekrar düşünmeye başlarlar. Filozof açlıktan öldüğünde simülasyon durur. |
+| • Her filozofun yemek yemesi gerekir ve asla aç kalmamalıdır. | 
+| • Filozoflar birbirleriyle konuşmazlar. | 
+| • Filozoflar başka bir filozofun ölmek üzere olup olmadığını bilmiyorlar. |
+| • Filozofların ölmekten kaçınması gerektiğini söylemeye gerek yok! | 
 
-
-## Genel kurallar
+## Argümanlar
 
 Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazmanız gerekiyor.
 (bonus kısmını yapmaya karar verirseniz). Her ikisi de aşağıdaki kurallara uymak zorundadır:
-
-• Global değişkenler yasaktır!
 
 • Program(lar)ınız aşağıdaki argümanları almalıdır:
 
@@ -37,12 +34,7 @@ Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazman�
 
 	◦ number_of_times_each_philosopher_must_eat (isteğe bağlı argüman): Tüm filozoflar en az number_of_times_each_philosopher_must_eat kere yemek yemişse simülasyon durur. Belirtilmezse, bir filozof öldüğünde simülasyon durur.
 
-• Her filozofun 1'den başlayarak number_of_philosophers kadar sayısı vardır.
-
-• 1 numaralı filozof, number_of_philosophers filozofun yanında oturur.
-N numaralı başka herhangi bir filozof, N - 1 numaralı filozof ile N + 1 numaralı filozof arasında oturur.
-
-### Programınızın logları hakkında:
+## Programınızın logları hakkında:
 
 • Bir filozofun herhangi bir durum değişikliği aşağıdaki gibi biçimlendirilmelidir:
 
@@ -56,21 +48,11 @@ N numaralı başka herhangi bir filozof, N - 1 numaralı filozof ile N + 1 numar
 
 • Görüntülenen bir durum mesajı başka bir mesajla karıştırılmamalıdır.
 
-• Bir filozofun öldüğünü bildiren bir mesaj, filozofun gerçek ölümünden en fazla 10 ms sonra görüntülenmelidir.
+• Bir filozofun öldüğünü bildiren bir mesaj, filozofun gerçek ölümünden en fazla 10 ms sonra görüntülenmelidir.-
 
-• Yine filozoflar ölmekten kaçınmalıdır!
-
-Programınız herhangi bir veri yarışına(data races) sahip olmamalıdır.
+	**Programınız herhangi bir veri yarışına(data races) sahip olmamalıdır.**
 
 ## Zorunlu kısım
-
-|  Program Adı |  philo |
-|---|---|
-| Teslim Edilecek Dosyalar |   Makefile, *.h, *.c, in directory philo/ |
-| Makefile | NAME, all, clean, fclean, re |
-| Argümanlar | number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]  |
-| Fonksiyonlar  | memset, printf, malloc, free, write, usleep, gettimeofday, pthread_create, pthread_detach, pthread_join, pthread_mutex_init, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_unlock |
-| Libft | No  |
 
 Zorunlu kısım için özel kurallar şunlardır:
 
@@ -83,8 +65,6 @@ Zorunlu kısım için özel kurallar şunlardır:
 ## Bonus kısım
 
 Bonus bölümünün programı, zorunlu programla aynı argümanları alır.
-
-Global kurallar bölümünün gerekliliklerine uygun olmalıdır.
 
 Bonus kısmı için özel kurallar şunlardır:
 
