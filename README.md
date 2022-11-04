@@ -15,7 +15,7 @@ ve tabii ki uyurken yemek yemiyor ve düşünmüyorlar.
 • Masada filozoflar kadar çatal vardır.
 
 • Spagettiyi tek çatalla servis etmek ve yemek çok zahmetli olduğundan,
-filozof yemek için sağdaki ve soldaki çatalları her iki elinde birer tane alır.
+filozof yemek için sağdaki ve soldaki çatalları her iki eline birer tane alır.
 
 • Bir filozof yemeğini bitirdiğinde çatallarını tekrar masaya koyar ve
 uyumaya başlar. Uyandıklarında tekrar düşünmeye başlarlar. Filozof açlıktan öldüğünde simülasyon durur.
@@ -45,7 +45,7 @@ time_to_eat
 
 time_to_sleep
 
-[number_of_times_each_philosopher_must_eat]
+number_of_times_each_philosopher_must_eat
 
 	◦ number_of_philosophers: Filozofların sayısı ve ayrıca çatalların sayısı.
 
@@ -56,24 +56,24 @@ time_to_sleep
 
 	◦ time_to_sleep (milisaniye cinsinden): Bir filozofun uyuyarak geçireceği zaman.
 
-	◦ number_of_times_each_philosopher_must_eat (isteğe bağlı argüman): Tüm filozoflar en az number_of_times_each_philosopher_must_eat kere yemişse simülasyon durur. Belirtilmezse, bir filozof öldüğünde simülasyon durur.
+	◦ number_of_times_each_philosopher_must_eat (isteğe bağlı argüman): Tüm filozoflar en az number_of_times_each_philosopher_must_eat kere yemek yemişse simülasyon durur. Belirtilmezse, bir filozof öldüğünde simülasyon durur.
 
 • Her filozofun 1'den başlayarak number_of_philosophers kadar sayısı vardır.
 
 • 1 numaralı filozof, number_of_philosophers filozofun yanında oturur.
 N numaralı başka herhangi bir filozof, N - 1 numaralı filozof ile N + 1 numaralı filozof arasında oturur.
 
-Programınızın logları hakkında:
+### Programınızın logları hakkında:
 
 • Bir filozofun herhangi bir durum değişikliği aşağıdaki gibi biçimlendirilmelidir:
 
-◦ timestamp_in_ms X çatal aldı
-◦ timestamp_in_ms X yiyor
-◦ timestamp_in_ms X uyuyor
-◦ timestamp_in_ms X düşünüyor
-◦ timestamp_in_ms X öldü
+	◦ timestamp_in_ms X çatal aldı
+	◦ timestamp_in_ms X yiyor
+	◦ timestamp_in_ms X uyuyor
+	◦ timestamp_in_ms X düşünüyor
+	◦ timestamp_in_ms X öldü
 
-timestamp_in_ms öğesini milisaniye cinsinden geçerli zaman damgasıyla ve X öğesini filozof numarasıyla değiştirin.
+	*timestamp_in_ms öğesini milisaniye cinsinden geçerli zaman damgasıyla ve X öğesini filozof numarasıyla değiştirin.*
 
 • Görüntülenen bir durum mesajı başka bir mesajla karıştırılmamalıdır.
 
@@ -84,9 +84,9 @@ timestamp_in_ms öğesini milisaniye cinsinden geçerli zaman damgasıyla ve X �
 Programınız herhangi bir veri yarışına(data races) sahip olmamalıdır.
 
 ## Zorunlu kısım
-|  |  |
-|---|---|
+
 |  Program Adı |  philo |
+|---|---|
 | Teslim Edilecek Dosyalar |   Makefile, *.h, *.c, in directory philo/ |
 | Makefile | NAME, all, clean, fclean, re |
 | Argümanlar | number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]  |
