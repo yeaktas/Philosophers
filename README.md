@@ -22,8 +22,9 @@ Zorunlu kısım için bir program, bonus kısım için ayrı bir program yazman�
 
 • Program(lar)ınız aşağıdaki argümanları almalıdır:
 
-| number_of_philosophers: | Filozofların sayısı ve ayrıca çatalların sayısı. |
+| Argümanlar | Açıklama |
 | :---        | --- |
+| number_of_philosophers: | Filozofların sayısı ve ayrıca çatalların sayısı. |
 | time_to_die (milisaniye cinsinden): |Bir filozof, son öğününden itibaren veya simülasyonun başlangıcından beri time_to_die milisaniyesi kadar yemek yemeye başlamadıysa ölür. |
 | time_to_eat (milisaniye cinsinden): | Bir filozofun yemek yemesi için geçen süre. Bu süre zarfında iki çatal tutmaları gerekecek. |
 |time_to_sleep (milisaniye cinsinden): | Bir filozofun uyuyarak geçireceği zaman. |
