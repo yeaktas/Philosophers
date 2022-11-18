@@ -64,3 +64,8 @@ Bonus kısmı için özel kurallar şunlardır:
 • Hafızada durumları yoktur, ancak mevcut çatalların sayısı bir semafor ile temsil edilir.
 
 • Her filozof bir süreç olmalıdır. Ama asıl süreç bir filozof olmamalıdır.
+
+
+## Kaynaklar
+
+https://www.youtube.com/watch?v=d9s_d28yJq0&list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2

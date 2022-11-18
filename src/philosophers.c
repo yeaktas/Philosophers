@@ -14,5 +14,13 @@
 
 int main(int ac, char **av)
 {
+	if(ac == 5 || ac == 6)
+	{
+		t_sim *sim;
+
+		sim = (t_sim *)malloc(sizeof(t_sim));
+
+		sim_init(sim, ac, av);
+	}
 	return (0);
 }

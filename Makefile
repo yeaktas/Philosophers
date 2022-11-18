@@ -19,7 +19,7 @@ fclean: clean
 
 git:
 	git add .
-	git commit -m "$c"
+	git commit -m "$m"
 	git push git@github.com:yeaktas/Philosophers.git
 
 norm:
