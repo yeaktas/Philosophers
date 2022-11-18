@@ -1,4 +1,4 @@
-CC		= gcc -g
+CC		= gcc -g -pthread
 NAME	= philo
 FLAGS	= -Wall -Wextra -Werror
 SRCS	= $(wildcard src/*.c)

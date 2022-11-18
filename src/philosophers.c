@@ -12,15 +12,15 @@
 
 #include "../inc/philo.h"
 
+void* routine()
+{
+	printf("threadlari test ediyoruz\n");
+}
+
 int main(int ac, char **av)
 {
-	if(ac == 5 || ac == 6)
-	{
-		t_sim *sim;
-
-		sim = (t_sim *)malloc(sizeof(t_sim));
-
-		sim_init(sim, ac, av);
-	}
+	pthread_t t1;
+	pthread_create(&t1, NULL, &routine, NULL);
+	pthread_join(t1, NULL);
 	return (0);
 }
