@@ -1,26 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   philo.c                                            :+:      :+:    :+:   */
+/*   philo_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yaktas <yaktas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/04 23:00:41 by yaktas            #+#    #+#             */
-/*   Updated: 2022/11/04 23:00:41 by yaktas           ###   ########.fr       */
+/*   Created: 2022/12/05 19:10:12 by yaktas            #+#    #+#             */
+/*   Updated: 2022/12/05 19:10:12 by yaktas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/philo.h"
+#include "philosophers_bonus.h"
 
-void* routine()
+int	main(int argc, char **argv)
 {
-	printf("threadlari test ediyoruz\n");
-}
+	t_arg	rules;
 
-int main(int ac, char **av)
-{
-	pthread_t t1;
-	pthread_create(&t1, NULL, &routine, NULL);
-	pthread_join(t1, NULL);
+	if (argc != 5 && argc != 6)
+		return (error_message("Wrong amount of arguments!!!"));
+	if (init_data(&rules, argv))
+		return (error_message("\nSomething happend at initilazion phase..."));
+	if (handle_resources(&rules))
+		return (error_message("\nSomething happened at process phase...."));
 	return (0);
 }
